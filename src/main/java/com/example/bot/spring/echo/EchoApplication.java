@@ -35,12 +35,13 @@ public class EchoApplication {
 
     @EventMapping
     public TextMessage handleTextMessageEvent(MessageEvent<TextMessageContent> event) {
-        System.out.println("event: " + event);
+//        System.out.println("event: " + event);
+    	System.out.println(event.getSource().getUserId());
         return new TextMessage(event.getMessage().getText());
     }
 
     @EventMapping
     public void handleDefaultMessageEvent(Event event) {
-        System.out.println("event: " + event);
+//        System.out.println("event: " + event);
     }
 }
