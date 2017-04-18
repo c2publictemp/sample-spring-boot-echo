@@ -1,0 +1,26 @@
+
+apply plugin: 'java' 
+apply plugin: 'eclipse' 
+ repositories { mavenCentral() } 
+dependencies { 
+  compile 'org.springframework:spring-context:4.0.0.RELEASE' 
+  compile("org.springframework.boot:spring-boot-starter-web:1.5.2.RELEASE") 
+    compile 'com.fasterxml.jackson.core:jackson-core' 
+    compile 'com.fasterxml.jackson.core:jackson-databind' 
+    compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310' 
+    compile 'com.squareup.okhttp3:logging-interceptor' 
+    compile 'com.squareup.retrofit2:converter-jackson' 
+    compile 'com.squareup.retrofit2:retrofit' 
+
+    compile 'com.fasterxml.jackson.core:jackson-core' 
+    compile 'com.fasterxml.jackson.core:jackson-databind' 
+    compile 'com.fasterxml.jackson.core:jackson-annotations' 
+
+     compile 'com.fasterxml.jackson.core:jackson-databind' 
+    compile 'com.google.guava:guava' 
+
+    compile 'org.springframework.boot:spring-boot-autoconfigure' 
+    compile 'org.springframework.boot:spring-boot-starter-web' 
+
+
+}
