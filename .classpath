@@ -84,11 +84,11 @@
 	<classpathentry kind="lib" path="jar/line-bot-api-client-1.6.0-sources.jar"/>
 	<classpathentry kind="lib" path="jar/line-bot-api-client-1.6.0.jar"/>
 	<classpathentry kind="lib" path="jar/line-bot-model-1.6.0-sources.jar"/>
-	<classpathentry kind="lib" path="jar/line-bot-model-1.6.0.jar"/>
+	<classpathentry kind="lib" path="jar/line-bot-model-1.6.0.jar" sourcepath="C:/lineSpace/line-bot-model-1.6.0-sources.jar"/>
 	<classpathentry kind="lib" path="jar/line-bot-servlet-1.6.0-sources.jar"/>
 	<classpathentry kind="lib" path="jar/line-bot-servlet-1.6.0.jar"/>
 	<classpathentry kind="lib" path="jar/line-bot-spring-boot-1.6.0-sources.jar"/>
-	<classpathentry kind="lib" path="jar/line-bot-spring-boot-1.6.0.jar"/>
+	<classpathentry kind="lib" path="jar/line-bot-spring-boot-1.6.0.jar" sourcepath="C:/lineSpace/line-bot-spring-boot-1.6.0-sources.jar"/>
 	<classpathentry kind="lib" path="jar/log4j-1.2.16.jar"/>
 	<classpathentry kind="lib" path="jar/log4j-over-slf4j-1.7.24.jar"/>
 	<classpathentry kind="lib" path="jar/logback-classic-1.1.11.jar"/>
